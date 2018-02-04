@@ -1,0 +1,8 @@
+{:duct.core/project-ns  clj-ebis2
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module/web {}
+ 
+ :duct.router/cascading
+ []}
