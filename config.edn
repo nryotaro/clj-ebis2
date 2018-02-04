@@ -1,5 +1,0 @@
-{:clj-ebis2/endpoint "https://api.bitflyer.jp/v1/getboardstate"
- :clj-ebis2/handler #ig/ref :clj-ebis2/endpoint
- :clj-ebis2/jetty {:handler #ig/ref :clj-ebis2/handler
-                         :port 3000}
- }

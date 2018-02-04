@@ -2,7 +2,11 @@
  :duct.core/environment :production
 
  :duct.module/logging {}
- :duct.module/web {}
- 
- :duct.router/cascading
- []}
+ :duct.module.web/site {}
+ :duct.module/sql {}
+
+ :duct.module/ataraxy
+ {[:get "/example"] [:example]}
+
+ :clj-ebis2.handler/example
+ {:db #ig/ref :duct.database/sql}}

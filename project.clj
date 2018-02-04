@@ -3,11 +3,13 @@
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [clj-http "3.7.0"]
                  [duct/core "0.6.2"]
-                 [cheshire "5.8.0"]
                  [duct/module.logging "0.3.1"]
-                 [duct/module.web "0.6.4"]]
+                 [duct/module.web "0.6.4"]
+                 [duct/module.ataraxy "0.2.0"]
+                 [duct/module.sql "0.4.2"]
+                 [org.postgresql/postgresql "42.1.4"]
+                 [org.xerial/sqlite-jdbc "3.21.0.1"]]
   :plugins [[duct/lein-duct "0.10.6"]]
   :main ^:skip-aot clj-ebis2.main
   :resource-paths ["resources" "target/resources"]
