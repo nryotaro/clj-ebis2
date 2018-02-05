@@ -9,4 +9,9 @@
  {[:get "/example"] [:example]}
 
  :clj-ebis2.handler/example
- {:db #ig/ref :duct.database/sql}}
+ {:db #ig/ref :duct.database/sql}
+
+ :duct.module/message {}
+
+ :clj-ebis2.boundary/message #ig/ref :duct.message/pubsub
+}

@@ -1,5 +1,5 @@
 {:duct.core/environment :development
  :duct.core/include ["clj_ebis2/config"]
-
- :duct.module/sql
- {:database-url "jdbc:sqlite:db/dev.sqlite"}}
+ :duct.message/pubsub {:project-id "clj-ebis2-194210"
+                       :subscription-id "clj-ebis2"}
+ :duct.module/sql {:database-url "jdbc:sqlite:db/dev.sqlite"}}

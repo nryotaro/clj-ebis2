@@ -4,10 +4,13 @@
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [duct/core "0.6.2"]
+                 [duct/module.message "0.1.0-SNAPSHOT"]
                  [duct/module.logging "0.3.1"]
                  [duct/module.web "0.6.4"]
                  [duct/module.ataraxy "0.2.0"]
                  [duct/module.sql "0.4.2"]
+                 [com.google.cloud/google-cloud-pubsub "0.33.0-beta"]
+
                  [org.postgresql/postgresql "42.1.4"]
                  [org.xerial/sqlite-jdbc "3.21.0.1"]]
   :plugins [[duct/lein-duct "0.10.6"]]
